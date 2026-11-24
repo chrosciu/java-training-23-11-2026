@@ -1,7 +1,5 @@
 package eu.chrost.day2.s2arrays.task2.trainer;
 
-import java.util.Arrays;
-
 public class Task2 {
     public static void main(String[] args) {
         int argsSize = args.length;
