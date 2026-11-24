@@ -1,0 +1,22 @@
+package eu.chrost.day1.s2conditionals.task2.trainer;
+
+import java.util.Scanner;
+
+public class Task2 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Podaj rok: ");
+        String input = scanner.nextLine();
+        int year = Integer.parseInt(input);
+
+        boolean isLeap = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+
+        if (isLeap) {
+            System.out.println("Rok " + year + " jest przestępny.");
+        } else {
+            System.out.println("Rok " + year + " nie jest przestępny.");
+        }
+
+    }
+}
