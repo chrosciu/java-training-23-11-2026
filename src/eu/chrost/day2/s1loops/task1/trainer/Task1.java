@@ -11,17 +11,17 @@ public class Task1 {
 
         //gorna granica sumowania - N
         int n = Integer.parseInt(input);
-        //licznik do petli - reprezentuje aktualny numer iteracji
-        //oraz jednoczesnie liczbe ktora dodajemy do aktualnej sumy
-        int k = 1;
         //suma - w kazdym obrocie petli bedziemy do niej dodawac
         //aktualna liczbe (i jednoczesnie numer iteracji)
         int suma = 0;
+        //licznik do petli - reprezentuje aktualny numer iteracji
+        //oraz jednoczesnie liczbe ktora dodajemy do aktualnej sumy
+        int k = 1;
 
         //wykonujemy n iteracji petli (k w zakresie 1..n)
         while (k <= n) {
             //dodajemy aktualna liczbe do sumy
-            suma +=k;
+            suma += k;
             //podnosimy licznik o 1
             k++;
         }
