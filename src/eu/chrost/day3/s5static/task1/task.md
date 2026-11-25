@@ -7,7 +7,7 @@
 2. Dodaj:
 * Konstruktor, który zwiększa wartość objectCount i przypisuje jej wartość do pola id.
 * Metodę static int getObjectCount(), która zwraca liczbę utworzonych obiektów.
-* Metodę void toString() wyswietlajaca tekstowa reprezentację obiektu (skorzytaj z generatora).
+* Metodę void print() wyswietlajaca tekstowa reprezentację obiektu.
 
 3. W metodzie main():
 * Utwórz kilka obiektów klasy Counter.
