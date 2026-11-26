@@ -1,0 +1,19 @@
+package eu.chrost.day4.s4abstract;
+
+//klasa abstrakcyjna jest klasa, ktorej instancji nie mozna utworzyc
+//natomiast mozna uzywac bezproblemowo referencji do tej klasy
+//slowa abstract i final sie nawzajem wykluczaja
+//(co ma zreszta sens)
+public abstract class Animal {
+    protected final String name;
+
+    protected Animal(String name) {
+        this.name = name;
+    }
+
+    //w klasie abstrakcyjnej mozna definiowac metody abstrakcyjne
+    //(oczywiscie mozna takze robic metody zwykle)
+    //metoda abstrakcyjna nie ma i nie moze miec implementacji
+    //natomiast musi zostac zaimplementowana w klasach potomnych
+    public abstract String greet();
+}
