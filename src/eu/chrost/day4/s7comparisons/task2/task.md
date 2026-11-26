@@ -1,0 +1,9 @@
+## Zadanie 2: Sortowanie książek (Comparator)
+
+1.	Utwórz klasę Book z polami:
+      *	String title,
+      *	int year.
+2.	Utwórz klasę TitleComparator, która implementuje interfejs Comparator<Book>:
+      o	Zaimplementuj metodę compare(), aby sortować książki alfabetycznie po tytule.
+3.	Analogicznie utwórz klasę YearComparator, która sortuje książki rosnąco po roku wydania.
+4.	W metodzie main utwórz listę książek, posortuj ją za pomocą Arrays.sort() z użyciem obu komparatorów i wypisz wyniki.
