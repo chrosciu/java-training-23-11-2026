@@ -1,4 +1,4 @@
-package eu.chrost.day5.s3collections;
+package eu.chrost.day5.s3collections.lectures;
 
 import java.util.HashSet;
 import java.util.Set;

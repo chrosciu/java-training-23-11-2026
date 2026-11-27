@@ -1,11 +1,11 @@
-package eu.chrost.day5.s3collections;
+package eu.chrost.day5.s3collections.lectures;
 
 import java.util.HashMap;
 import java.util.Map;
 
 //pola i metody statyczne oraz wartosci enum mozna sobie zaimportowac
 //tak aby nie trzeba bylo za kazdym razem pisac nazwy klasy i operatora `.`
-import static eu.chrost.day5.s3collections.Color.BLACK;
+import static eu.chrost.day5.s3collections.lectures.Color.BLACK;
 
 enum Color {
     BLACK,

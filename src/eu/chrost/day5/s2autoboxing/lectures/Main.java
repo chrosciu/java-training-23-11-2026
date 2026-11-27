@@ -1,4 +1,4 @@
-package eu.chrost.day5.s2autoboxing;
+package eu.chrost.day5.s2autoboxing.lectures;
 
 public class Main {
     public static void main(String[] args) {
